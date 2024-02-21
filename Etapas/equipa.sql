@@ -36,6 +36,8 @@ ALTER TABLE Custo
 	ADD FOREIGN KEY (cd_forn)
 	REFERENCES Fornecedores
 go
+
+--Renomeando as 
 ALTER TABLE Custo
 	DROP CONSTRAINT [PK__custo__A8F38C3FFE967E7B]
 ALTER TABLE Custo
